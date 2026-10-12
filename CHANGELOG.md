@@ -5,6 +5,7 @@
 ## 2026-10-12
 
 - ［维护］全仓旁观者评审与治理修正：①CHANGELOG 补登 9 个漏登 commit（10-06 后期 2 + 10-08 批量 6 + 10-09 补 1）；②DOCUMENTATION_MAP 补登 8 行业三件套说明 + 评审报告登记；③README §运行规则精简为指针（规则细节归 AGENTS.md，消除边界表自相矛盾）；④AGENTS.md 补文档边界表；⑤新建 `03_监控机制/2026-10-12-独立评审.md`。死链复扫 0、旧名残留 0（活态文档）。ADR/decisions 层暂缺，记待用户拍板。
+- ［新增］项目管理目录落地（用户拍板）：新建 `project-management/`（含 README 入口 + reviews/ 评审目录）；初评报告原位保留在 `03_监控机制/` 并登记入 reviews 索引；新建 `reviews/2026-10-12-修正轮记录.md`。R-3 方案 A 执行：AGENTS.md 补"治理约定"段（决策记录约定：重大决策以 ADR 形式记录于 docs/ 或 AGENTS 注记，不单建 decisions 目录）。DOCUMENTATION_MAP 补登 project-management/ 三文件。
 
 ## 2026-10-09
 

@@ -13,6 +13,14 @@
 | [ISSUES.md](ISSUES.md) | 问题/未核实项验证队列（51 项，分 5 组） | 自身（矩阵第七章为来源） | 验证处理时 |
 | [CHANGELOG.md](CHANGELOG.md) | 变更日志：编年体、只增不改 | 自身 | 每次显著变更 |
 
+## project-management
+
+| 文档 | 一句话职责 | 权威源 |
+|---|---|---|
+| [README.md](project-management/README.md) | 项目管理目录入口：子目录职责说明 | 自身 |
+| [reviews/README.md](project-management/reviews/README.md) | 评审报告与修正轮记录索引 | 自身 |
+| [reviews/2026-10-12-修正轮记录.md](project-management/reviews/2026-10-12-修正轮记录.md) | 初评 R-1～R-5 修正执行 + 用户拍板项落地记录 | 初评报告 |
+
 ## 01_渠道矩阵
 
 | 文档 | 一句话职责 | 权威源 |

@@ -30,6 +30,11 @@
 - 借鉴创意≠盗用素材：品牌 logo/产品图/版权内容标注红线
 - 不在未授权时用脚本批量抓取他人数据（平台反爬与合规优先）
 
+## 治理约定
+
+- **决策记录约定：重大决策以 ADR 形式记录于 docs/ 或 AGENTS 注记，不单建 decisions 目录**（轻量仓拍板，2026-10-12）
+- 评审报告与修正轮记录统一放 `project-management/reviews/`（索引见该目录 README）
+
 ## 恢复顺序
 0. 跨体系任务：业务意图（发什么/定方向）→ 运营仓 `~/Desktop/we-media-ops/docs/SYSTEM_STRATEGY.md`；运行机制/路由 → 采集底座 `~/Desktop/content-pipeline/docs/SYSTEM_ARCHITECTURE.md`
 1. 读本文件 → 2. 读 README → 3. 看 `03_监控机制/` 更新频率 → 4. 需要时读 `01~04` 对应清单
