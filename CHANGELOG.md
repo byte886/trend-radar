@@ -2,9 +2,19 @@
 
 > 格式：`YYYY-MM-DD ［类型］一句话（+影响/依据）`；类型 = 新增/变更/修复/废弃/移除。所有显著变更必须在此记一条（见 `03_监控机制/定时更新机制.md`）。
 
+## 2026-10-12
+
+- ［维护］全仓旁观者评审与治理修正：①CHANGELOG 补登 9 个漏登 commit（10-06 后期 2 + 10-08 批量 6 + 10-09 补 1）；②DOCUMENTATION_MAP 补登 8 行业三件套说明 + 评审报告登记；③README §运行规则精简为指针（规则细节归 AGENTS.md，消除边界表自相矛盾）；④AGENTS.md 补文档边界表；⑤新建 `03_监控机制/2026-10-12-独立评审.md`。死链复扫 0、旧名残留 0（活态文档）。ADR/decisions 层暂缺，记待用户拍板。
+
 ## 2026-10-09
 
-- ［变更］仓库改名 `ai-intel-monitor → trend-radar`（用户拍板：intel 非正式且撞 Intel 品牌；trend-radar 有 TrendRadar 53k stars 先例、语义=追踪趋势变化、与体系去 ai 前缀统一）。GitHub rename + 本地目录 mv + remote set-url + 全链指针同步。
+- ［变更］仓库改名 `ai-intel-monitor → trend-radar`（用户拍板：intel 非正式且撞 Intel 品牌；trend-radar 有 TrendRadar 53k stars 先例、语义=追踪趋势变化、与体系去 ai 前缀统一）。GitHub rename + 本地目录 mv + remote set-url + 全链指针同步。commit `302857e`
+- ［变更］指针同步采集底座改名：`multiplatform-content-pipeline → content-pipeline`（AGENTS.md §恢复顺序指针更新）。commit `eac039f`
+
+## 2026-10-08
+
+- ［变更］跨仓指针批量同步与清理：①运营仓指针 `self-media-ops → we-media-ops`（commit `bd01399`）；②生产仓名收敛为 `ai-video-studio`（原 jewelry-ai-video-sop/heritage-ai-video-sop 两代旧名一并清理，commit `a24d4fd`）；③总控仓指针经历 `system-architecture → multi-repo-orchestration` 后，按依赖驱动清理原则删除装饰性导航型指针、仅保留真实依赖（commits `432c2c9`→`a58a717`→`6cf546e`）
+- ［变更］§5.5 删除过时写入行（情报速递统一用仓内模板）+ 行业包引用统一为 `research-toolkit` 技能说明（技能改名同步）。commit `0c6c8fa`
 
 ## 2026-10-07
 
@@ -34,4 +44,6 @@
 - ［新增］定时任务部署方案（03_监控机制/）：频率分层（周/双周/月+事件驱动，业界多源验证）+ 推送渠道三方案对比（豆包定时任务/GitHub Actions→邮箱/本机crontab）；**当前决策=人工驱动验证**（用户触发词：跑本周情报/跑工具复核/跑月度核对），验证 2 周后评估是否升级自动化
 - ［新增］对照会计知识库治理成熟度体检修复：README 补"文档边界表+常用查询话术表"（状态段改摘要指针）；新建 TASK_STATUS.md（活态进度台账）、DOCUMENTATION_MAP.md（全仓文档地图）；AGENTS 补"文档快速入口表"（任务类型→文档）。断链复扫：3 处为跨仓指针（指向珠宝主仓路径，非本仓断链），已在 MAP 维护规则标注。会计知识库的 ADR/工程记忆/多角色/自动化检查四类未采纳（监控仓轻量单人场景暂不需要，记为扩展位）
 - ［新增］两主包接入（用户拍板：珠宝+翡翠为当前主包，陶瓷降备选）：新建 `01_渠道矩阵/翡翠市场情报渠道_v1_20261006.md`（六线渠道+数据锚点+待核实 4 项，驱动源=调研技能行业包 jadeite）；02_监控对象 README 增"翡翠市场情报（新线）"速记；DOCUMENTATION_MAP 登记新文档；README 主包描述同步珠宝+翡翠
-- ［新增］OKF 知识层采用（okf-wiki v0.2 标准档）：AGENTS 加"OKF 知识层声明"（type 词表 ChannelMatrix/Mechanism/MonitorObject/Reference + 标准档字段 + 信任标注 + 校验纪律含存量排除说明）；翡翠矩阵补标准档 frontmatter 作试点（okf_validate 单文件校验通过：0 硬错误）——存量不强制回填，新写自然采用
+- ［新增］OKF 知识层采用（okf-wiki v0.2 标准档）：AGENTS 加"OKF 知识层声明"（type 词表 ChannelMatrix/Mechanism/MonitorObject/Reference + 标准档字段 + 信任标注 + 校验纪律含存量排除说明）；翡翠矩阵补标准档 frontmatter 作试点（okf_validate 单文件校验通过：0 硬错误）——存量不强制回填，新写自然采用。commit `d2d4aa9`
+- ［新增］鉴藏总域定位声明：AGENTS.md 补"鉴藏总域（heritage）"段（珠宝/翡翠/古玩/家具/收藏体系统一纳入鉴藏知识域；当前监控主包=珠宝+翡翠）。commit `3346d23`
+- ［变更］AGENTS.md §恢复顺序补体系路由指针：业务意图→运营仓 we-media-ops/SYSTEM_STRATEGY；运行机制→采集底座 content-pipeline/SYSTEM_ARCHITECTURE。commit `da4c68b`

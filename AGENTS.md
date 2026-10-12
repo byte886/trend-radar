@@ -2,6 +2,16 @@
 
 > 给 AI 看的命令式规则。新会话启动先读本文件，再读 README。
 
+## 文档边界
+
+| 本文档包含 | 本文档不包含 → 指向 |
+|---|---|
+| 执行规则、禁止事项、恢复顺序、快速入口、定时更新机制 | 项目介绍/目录约定/状态摘要 → [README.md](README.md) |
+| | 进度台账/下一步 → [TASK_STATUS.md](TASK_STATUS.md) |
+| | 问题/未核实队列 → [ISSUES.md](ISSUES.md) |
+| | 全仓文档索引 → [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) |
+| | 变更历史 → [CHANGELOG.md](CHANGELOG.md) |
+
 ## 定位
 通用 AI 情报监控仓：渠道矩阵 / 监控对象 / 监控机制 / 落地工具 为通用层；`场景应用/<行业>/` 为行业实例层。监控结论可跨行业复用，行业细节留在场景层。
 

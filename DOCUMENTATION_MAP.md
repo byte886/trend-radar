@@ -38,6 +38,7 @@
 | [协作策略路由.md](03_监控机制/协作策略路由.md) | 多智能体协作方式：推派 vs 拉取/黑板认领（12 模式+切换路由） | 自身 |
 | [每周扫描操作卡.md](03_监控机制/每周扫描操作卡.md) | 每周情报速递的执行步骤卡 | 自身 |
 | [定时任务部署方案.md](03_监控机制/定时任务部署方案.md) | 定时任务三方案对比 + 当前决策（人工驱动验证 2 周） | 自身 |
+| [2026-10-12-独立评审.md](03_监控机制/2026-10-12-独立评审.md) | 全仓旁观者评审：死链/旧名/台账/CHANGELOG/MAP 登记一致性逐项检查 | 自身 |
 
 ## 04_落地工具
 
@@ -62,6 +63,8 @@
 | [western-antiques/README.md](场景应用/western-antiques/README.md) | 西洋古董场景要点：三体系 + 博物馆展 | 行业包 §western-antiques + 行业细分表 §3.5 |
 | [ceramics/README.md](场景应用/ceramics/README.md) | 陶瓷场景要点：五大体系 + 陶瓷手串专组 | 行业包 §ceramics + 行业细分表 §3.3a |
 | [antiques/README.md](场景应用/antiques/README.md) | 古玩·古董场景要点：杂项器物支线（鼻烟壶/文房/高古玉等） | 行业包 §antiques + 行业细分表 §3.3 |
+
+> **8 行业三件套说明**：furniture/painting/watches/spirits/agarwood/western-antiques/ceramics/antiques 各目录均含 `README.md`（已登记上行）+ `关键词库.md`（各平台关键词组，每周扫描照词搜）+ `每周情报速递模板.md`（速递文档模板）+ `每周情报速递/`（归档子目录），结构与 jewelry 三件套一致，不逐行重复登记。
 
 ## 维护规则
 
